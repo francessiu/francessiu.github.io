@@ -1,0 +1,25 @@
+baseURL = "https://www.yourwebsitedomain.com/"
+languageCode = "en-gb"
+title = "Frances Siu | Data Scientist & Software Developer"
+theme = "ananke"
+
+# Enable Custom Taxonomies (Crucial for filtering content)
+[taxonomies]
+  category = "categories"       # e.g., Data Science, HPC
+  tag = "tags"                  # e.g., Python, LaTeX, Distributed Systems
+  technology = "technologies"   # Specific technologies used in projects
+
+# SEO Configuration
+[params]
+  description = "Two-time UoE graduate specialising in Statistics, Data Science, High Performance Computing, and Software Development."
+  email = "ahsiu611@gmail.com"
+  linkedin = "https://www.linkedin.com/in/frances-siu-52081723b/"
+  github = "https://github.com/francessiu"
+
+# Build Settings for performance (aligned with HPC principles)
+[build]
+  writeStats = true
+[minify]
+  disableCSSMinify = false
+  disableHTMLMinify = false
+  disableJSMinify = false

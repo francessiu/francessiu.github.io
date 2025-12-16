@@ -1,0 +1,10 @@
+{{ $repo := .Get "repo" | default (.Page.Params.github | default "#") }}
+{{ $label := .Get "label" | default "View Repository on GitHub" }}
+
+<a href="{{ $repo }}" 
+   class="button github-button" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   title="Link to project's source code">
+    <span>{{ $label }}</span>
+</a>

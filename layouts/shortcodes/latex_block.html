@@ -1,0 +1,18 @@
+<div class="latex-equation">
+    {{ .Inner | safeHTML }}
+</div>
+
+<script>
+    // Minimal JS to ensure KaTeX runs on load and renders math
+    document.addEventListener("DOMContentLoaded", function() {
+        if (typeof renderMathInElement === 'function') {
+            const elements = document.getElementsByClassName('latex-equation');
+            for (let i = 0; i < elements.length; i++) {
+                renderMathInElement(elements[i], {
+                    // KaTeX specific settings (e.g., trust, throwOnError)
+                    // ...
+                });
+            }
+        }
+    });
+</script>
