@@ -1,0 +1,14 @@
+# Generated at build time
+public/
+resources/
+
+# Local development files
+.hugo_build.lock
+hugo_stats.json
+
+# Dependency directories
+node_modules/
+
+.DS_Store
+.vscode/
+.env

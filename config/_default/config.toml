@@ -1,4 +1,5 @@
-baseURL = "https://www.yourwebsitedomain.com/"
+baseURL = "https://francessiu.github.io/"
+publishDir = "public"
 languageCode = "en-gb"
 title = "Frances Siu | Data Scientist & Software Developer"
 theme = "ananke"

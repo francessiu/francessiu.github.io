@@ -16,4 +16,3 @@ live_demo: "" # Optional link to a live version
 ## Results & Impact
 
 {{< github_link >}}
-(This will render a clean button linking to the GitHub repo.)
